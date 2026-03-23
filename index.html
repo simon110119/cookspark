@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>好煮意 — 法律資訊</title>
+  <style>
+    :root {
+      --primary: #FF6B35;
+      --bg: #FAFAFA;
+      --text: #1A1A1A;
+      --muted: #666;
+      --card: #FFFFFF;
+      --border: #E5E5E5;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, "PingFang TC", "Noto Sans TC", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.8;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 16px;
+    }
+    .hero {
+      text-align: center;
+      margin-bottom: 48px;
+    }
+    .hero h1 {
+      font-size: 2.4rem;
+      margin-bottom: 8px;
+    }
+    .hero p {
+      color: var(--muted);
+      font-size: 1.05rem;
+    }
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      width: 100%;
+      max-width: 400px;
+    }
+    .links a {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      padding: 18px 24px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      text-decoration: none;
+      color: var(--text);
+      font-weight: 600;
+      font-size: 1.05rem;
+      transition: transform 0.15s, box-shadow 0.15s;
+    }
+    .links a:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+    }
+    .links a .icon { font-size: 1.6rem; }
+    footer {
+      margin-top: 60px;
+      color: var(--muted);
+      font-size: 0.82rem;
+      text-align: center;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #111;
+        --text: #F0F0F0;
+        --muted: #999;
+        --card: #1E1E1E;
+        --border: #2A2A2A;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="hero">
+    <h1>🍽️ 好煮意</h1>
+    <p>智能冰箱管理 × AI 料理推薦</p>
+  </div>
+
+  <div class="links">
+    <a href="privacy-policy.html">
+      <span class="icon">🔒</span>
+      隱私權政策
+    </a>
+    <a href="terms.html">
+      <span class="icon">📜</span>
+      使用條款
+    </a>
+    <a href="support.html">
+      <span class="icon">💬</span>
+      客服支援
+    </a>
+  </div>
+
+  <footer>
+    <p>© 2026 Facai Technologies · 好煮意</p>
+  </footer>
+</body>
+</html>

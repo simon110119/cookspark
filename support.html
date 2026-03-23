@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>客服支援 — 好煮意</title>
+  <style>
+    :root { --primary: #FF6B35; --bg: #FAFAFA; --text: #1A1A1A; --muted: #666; --border: #E5E5E5; --card: #FFF; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, "PingFang TC", "Noto Sans TC", sans-serif; background: var(--bg); color: var(--text); line-height: 1.8; padding: 0 16px; }
+    header { background: var(--primary); color: white; text-align: center; padding: 48px 24px 36px; margin: 0 -16px 40px; }
+    header h1 { font-size: 2rem; font-weight: 700; margin-bottom: 8px; }
+    header p { font-size: 0.95rem; opacity: 0.85; }
+    .container { max-width: 720px; margin: 0 auto; padding-bottom: 80px; }
+    section { margin-bottom: 36px; }
+    h2 { font-size: 1.15rem; font-weight: 700; color: var(--primary); margin-bottom: 12px; padding-bottom: 8px; border-bottom: 2px solid var(--border); }
+    p { margin-bottom: 12px; color: #333; }
+    .card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 20px 24px; margin-bottom: 12px; }
+    .card-title { font-weight: 700; margin-bottom: 8px; }
+    .card-desc { font-size: 0.9rem; color: var(--muted); }
+    .faq { margin-bottom: 20px; }
+    .faq-q { font-weight: 700; margin-bottom: 4px; }
+    .faq-a { color: #555; font-size: 0.95rem; }
+    a { color: var(--primary); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    footer { text-align: center; color: var(--muted); font-size: 0.82rem; padding: 32px 0; border-top: 1px solid var(--border); }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg: #111; --text: #F0F0F0; --muted: #999; --border: #2A2A2A; --card: #1E1E1E; }
+      p, .faq-a { color: #DDD; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🍽️ 好煮意</h1>
+    <p>客服支援 Support</p>
+  </header>
+  <div class="container">
+
+    <section>
+      <h2>📬 聯絡我們</h2>
+      <div class="card">
+        <div class="card-title">電子郵件</div>
+        <div class="card-desc">
+          <a href="mailto:support@cookspark.tw">support@cookspark.tw</a><br />
+          通常在 24 小時內回覆。
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>❓ 常見問題</h2>
+
+      <div class="faq">
+        <div class="faq-q">Q: AI 推薦菜色一天可以用幾次？</div>
+        <div class="faq-a">A: 免費用戶每日 3 次。升級 Premium 可享無限次推薦。</div>
+      </div>
+
+      <div class="faq">
+        <div class="faq-q">Q: 如何取消訂閱？</div>
+        <div class="faq-a">A: 前往 iPhone「設定」→ 點擊您的 Apple ID → 「訂閱」→ 選擇「好煮意」→ 取消訂閱。</div>
+      </div>
+
+      <div class="faq">
+        <div class="faq-q">Q: 資料會儲存在哪裡？</div>
+        <div class="faq-a">A: 所有資料儲存在您的 iPhone 本機。啟用 iCloud 後可透過您的個人 iCloud 帳號同步。</div>
+      </div>
+
+      <div class="faq">
+        <div class="faq-q">Q: 食材過期提醒準確嗎？</div>
+        <div class="faq-a">A: 提醒基於您輸入的保存期限，最終請以食品實際狀態判斷。</div>
+      </div>
+
+      <div class="faq">
+        <div class="faq-q">Q: 可以跟家人共用嗎？</div>
+        <div class="faq-a">A: 可以！透過「家庭共享」功能，最多 6 位家庭成員可共享 Premium 訂閱。</div>
+      </div>
+    </section>
+
+    <section>
+      <h2>🐛 回報問題</h2>
+      <p>發現 Bug 或有功能建議？請寄信至 <a href="mailto:support@cookspark.tw">support@cookspark.tw</a>，附上以下資訊：</p>
+      <ul style="padding-left: 20px;">
+        <li>iPhone 型號與 iOS 版本</li>
+        <li>問題描述與重現步驟</li>
+        <li>截圖（如有）</li>
+      </ul>
+    </section>
+
+    <footer>
+      <p>© 2026 Facai Technologies · 好煮意</p>
+    </footer>
+  </div>
+</body>
+</html>

@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>隱私權政策 — 好煮意 CookSpark</title>
+  <style>
+    :root {
+      --primary: #FF6B35;
+      --bg: #FAFAFA;
+      --text: #1A1A1A;
+      --muted: #666666;
+      --border: #E5E5E5;
+      --card: #FFFFFF;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, "PingFang TC", "Noto Sans TC", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.8;
+      padding: 0 16px;
+    }
+    header {
+      background: var(--primary);
+      color: white;
+      text-align: center;
+      padding: 48px 24px 36px;
+      margin: 0 -16px 40px;
+    }
+    header h1 { font-size: 2rem; font-weight: 700; margin-bottom: 8px; }
+    header p { font-size: 0.95rem; opacity: 0.85; }
+    .container { max-width: 720px; margin: 0 auto; padding-bottom: 80px; }
+    .badge {
+      display: inline-block;
+      background: #E8F5E9;
+      color: #2E7D32;
+      border-radius: 20px;
+      padding: 4px 14px;
+      font-size: 0.82rem;
+      font-weight: 600;
+      margin-bottom: 32px;
+    }
+    section { margin-bottom: 36px; }
+    h2 {
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: var(--primary);
+      margin-bottom: 12px;
+      padding-bottom: 8px;
+      border-bottom: 2px solid var(--border);
+    }
+    p { margin-bottom: 12px; color: #333; }
+    ul { padding-left: 20px; margin-bottom: 12px; }
+    ul li { margin-bottom: 6px; color: #333; }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 20px 24px;
+      margin-bottom: 12px;
+    }
+    .card-title { font-weight: 700; margin-bottom: 4px; }
+    .card-desc { font-size: 0.9rem; color: var(--muted); }
+    .highlight {
+      background: #FFF3E0;
+      border-left: 4px solid var(--primary);
+      padding: 12px 16px;
+      border-radius: 0 8px 8px 0;
+      margin-bottom: 16px;
+    }
+    .no-collect {
+      background: #E8F5E9;
+      border: 1px solid #A5D6A7;
+      border-radius: 10px;
+      padding: 16px 20px;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+    }
+    .no-collect-icon { font-size: 1.4rem; flex-shrink: 0; }
+    footer {
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.82rem;
+      padding: 32px 0;
+      border-top: 1px solid var(--border);
+    }
+    a { color: var(--primary); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #111;
+        --text: #F0F0F0;
+        --muted: #999;
+        --border: #2A2A2A;
+        --card: #1E1E1E;
+      }
+      p, ul li { color: #DDD; }
+      .card-desc { color: #999; }
+      .badge { background: #1B3A1C; color: #81C784; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🍽️ 好煮意 CookSpark</h1>
+    <p>隱私權政策 Privacy Policy</p>
+  </header>
+
+  <div class="container">
+    <div class="badge">✅ 不追蹤用戶 · 不出售資料 · 資料留在裝置</div>
+
+    <section>
+      <h2>📋 總覽</h2>
+      <p>
+        「好煮意」（以下簡稱「本應用程式」）由 Facai Technologies 開發並維護。
+        我們非常重視您的隱私，本政策說明我們如何收集、使用及保護您在使用本應用程式時所產生的資訊。
+      </p>
+      <div class="highlight">
+        <strong>核心承諾：</strong>本應用程式不進行任何跨應用追蹤（NSPrivacyTracking = false），
+        不會將您的個人資訊出售或分享給第三方廣告商。
+      </div>
+    </section>
+
+    <section>
+      <h2>📸 我們存取的裝置功能</h2>
+      <p>本應用程式在以下情境下會請求存取您的裝置功能：</p>
+
+      <div class="card">
+        <div class="card-title">📷 相機</div>
+        <div class="card-desc">
+          用於掃描食品條碼，快速辨識並新增食材至您的冰箱清單。
+          相機畫面不會上傳至任何伺服器，所有辨識在裝置本地處理。
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-title">🖼️ 照片圖庫</div>
+        <div class="card-desc">
+          用於辨識食材照片，或讓您上傳冰箱內容照片以自動建立食材清單。
+          照片僅在您主動操作時存取，不會在背景讀取。
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-title">🔔 通知</div>
+        <div class="card-desc">
+          用於提醒您食材即將到期、每日推薦菜色。
+          所有通知在本機排程，不依賴外部推播伺服器。
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>🚫 我們不收集的資訊</h2>
+      <div class="no-collect">
+        <div class="no-collect-icon">🛡️</div>
+        <div>
+          <strong>我們不收集以下資料：</strong>
+          <ul style="margin-top:8px;">
+            <li>姓名、電子郵件或任何聯絡資訊</li>
+            <li>位置資訊（GPS、IP 定位）</li>
+            <li>裝置識別碼（IDFA、廣告 ID）</li>
+            <li>瀏覽紀錄或使用行為追蹤</li>
+            <li>財務或付款資訊（由 Apple App Store 直接處理）</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>💾 資料儲存說明</h2>
+      <p>
+        您在本應用程式中建立的食材清單、食譜收藏及個人偏好，
+        <strong>全部儲存在您的 iPhone 本機</strong>（使用 SwiftData 框架）。
+        若您啟用 iCloud 同步，資料將透過您個人的 iCloud 帳號備份，
+        不會經過我們的伺服器。
+      </p>
+    </section>
+
+    <section>
+      <h2>💳 付費訂閱</h2>
+      <p>
+        本應用程式提供 Premium 訂閱方案（月訂 / 年訂），
+        所有付款流程完全由 <strong>Apple App Store 的 In-App Purchase 系統</strong>處理。
+        我們不會接觸或儲存您的信用卡號或任何付款資訊。
+      </p>
+      <p>
+        訂閱管理請至：<br />
+        <strong>設定 → Apple ID → 訂閱</strong>
+      </p>
+    </section>
+
+    <section>
+      <h2>🤖 AI 推薦功能與跨國資料傳輸</h2>
+      <p>
+        本應用程式的「AI 推薦」功能使用 <strong>Anthropic Claude API</strong>
+        為您提供個人化菜色推薦。使用此功能時，以下資料將傳送至 Anthropic 公司（總部位於美國舊金山）進行處理：
+      </p>
+      <ul>
+        <li>您的冰箱食材清單（名稱、數量）</li>
+        <li>您的飲食偏好與過敏原設定</li>
+        <li>家庭成員人數與飲食限制</li>
+      </ul>
+      <div class="highlight">
+        <strong>資料保護措施：</strong>
+        <ul style="margin-top:8px;">
+          <li>所有傳輸均使用 TLS 加密</li>
+          <li>Anthropic 不會儲存您的查詢內容用於模型訓練</li>
+          <li>您的資料僅用於即時生成推薦結果，不會被保留</li>
+          <li>首次使用前會徵求您的明確同意（Opt-in），您可隨時在設定中撤回</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>📜 您的資料權利</h2>
+      <p>依據個人資料保護法，您享有以下四項權利：</p>
+      <div class="card">
+        <div class="card-title">1. 查詢權</div>
+        <div class="card-desc">您可隨時查詢本 App 所儲存的個人資料範圍與內容。</div>
+      </div>
+      <div class="card">
+        <div class="card-title">2. 更正權</div>
+        <div class="card-desc">您可隨時修改或更正您的個人資料（如飲食偏好、過敏原設定等）。</div>
+      </div>
+      <div class="card">
+        <div class="card-title">3. 刪除權</div>
+        <div class="card-desc">您可透過「設定 → 帳戶 → 永久刪除所有資料」一鍵刪除所有個人資料。此操作不可逆。</div>
+      </div>
+      <div class="card">
+        <div class="card-title">4. 停止蒐集權</div>
+        <div class="card-desc">您可隨時撤回 AI 推薦功能的資料傳輸同意，App 將停止向外部 API 傳送任何資料。</div>
+      </div>
+      <p>
+        如需行使上述權利或有任何疑問，請透過下方聯絡方式與我們聯繫。
+      </p>
+    </section>
+
+    <section>
+      <h2>👶 兒童隱私</h2>
+      <p>
+        本應用程式不針對 13 歲以下兒童設計，也不會刻意收集未成年人的個人資訊。
+        如您認為您的孩子提供了個人資訊，請聯絡我們，我們將立即處理。
+      </p>
+    </section>
+
+    <section>
+      <h2>🔄 政策更新</h2>
+      <p>
+        我們可能不定期更新本隱私政策。更新時，我們將在本頁面更新「最後修訂日期」。
+        重大變更時，會在應用程式內以通知方式告知您。
+      </p>
+      <p>
+        繼續使用本應用程式即代表您接受最新版隱私政策。
+      </p>
+    </section>
+
+    <section>
+      <h2>📬 聯絡我們</h2>
+      <p>如您對本隱私政策有任何疑問，歡迎透過以下方式聯絡：</p>
+      <div class="card">
+        <div class="card-title">Facai Technologies</div>
+        <div class="card-desc" style="margin-top:6px;">
+          電子郵件：<a href="mailto:support@cookspark.tw">support@cookspark.tw</a><br />
+          應用程式：好煮意（Bundle ID：com.facai.cookspark）
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>最後修訂日期：2026 年 3 月 23 日</p>
+      <p style="margin-top:6px;">© 2026 Facai Technologies · 好煮意</p>
+    </footer>
+  </div>
+</body>
+</html>
